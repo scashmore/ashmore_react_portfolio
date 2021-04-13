@@ -3,6 +3,14 @@
     background-color: hsl(0, 0%, 14%, .6) !important;
     border-bottom: #eee solid;
 }
+.name {
+    margin-right: 55%;
+}
+@media only screen and (max-width: 1178px) {
+    .name {
+        margin-right: 45%;
+    }
+}
 .page {
     min-height: 83.2vh;
     color: #eee;
@@ -38,6 +46,10 @@
 .footer {
     background-color: hsl(0, 0%, 14%, .6);
     border-top: #eee solid;
+    min-height: 5vh;
+    color: #eee;
+    text-align: center;
+    padding-top: 1%;
 }
 .text {
     width: 50vw;
