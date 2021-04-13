@@ -4,7 +4,7 @@ import './styles.css'
 function Footer() {
     return (
         <div className="d-flex flex-column">
-            <footer class="footer">
+            <footer className="footer">
                 <div>
                     <a href="https://coreui.io">CoreUI</a>
                     <span>&copy; 2020 creativeLabs.</span>
