@@ -5,13 +5,14 @@ import Footer from './components/Footer.js';
 import Projects from './components/Projects.js';
 import Art from './components/Art.js';
 import Resume from './components/Resume.js';
+import Contact from './components/Contact.js';
 
 function App() {
   return (
     <div style={{ backgroundImage: "url(../../images/background.png)" }}>
       <div calssName='header'>
     <Header />
-    <Resume />
+    <Contact />
     <Footer />
     </div>
     </div>
