@@ -4,7 +4,7 @@ function Home() {
     return (
         <>
             <div className="page">
-                <img className="big" src="../../images/portraitResize.jpg" alt="profile image" width="200vw" height="300vh"></img>
+                <img className="picture" src="../../images/portraitResize.jpg" alt="profile image" width="200vw" height="300vh"></img>
                 <div className="text">
                 <h2>About</h2>
                 <p>
