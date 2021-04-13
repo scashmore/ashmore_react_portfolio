@@ -84,3 +84,7 @@
 a {
     cursor: pointer;
 }
+.downloads {
+    display: flex;
+    flex-direction: column;
+}

@@ -35,6 +35,17 @@ function Projects() {
                     <Carousel.Item>
                         <img
                             className="d-block citem"
+                            src="../../images/pianoDemo.gif"
+                            alt="Third slide"
+                        />
+                        <Carousel.Caption>
+                            <h3><a>To Deployed Site</a></h3>
+                            <p><a href="#">To GitHub Repo</a></p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block citem"
                             src="../../images/RestResult.png"
                             alt="Third slide"
                         />
