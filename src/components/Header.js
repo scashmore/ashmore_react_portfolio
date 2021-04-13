@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import './styles.css'
 
 function Header() {
     return(
         <div ClassName="header">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">Susan Ashmore</Navbar.Brand>
+  <Navbar.Brand href="#home" className="font1">Susan Ashmore</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav>
@@ -14,7 +16,7 @@ function Header() {
         Projects
       </Nav.Link>
       <Nav.Link eventKey={2} href="#art-portfolio">
-        Art Portfloio
+        Art Portfolio
       </Nav.Link>
       <Nav.Link eventKey={2} href="#resume">
         Resume

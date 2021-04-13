@@ -1,0 +1,7 @@
+
+.bg-dark {
+    background-color: hsl(0, 0%, 14%, .6) !important;
+}
+.page {
+    height: 80vh;
+}
