@@ -88,3 +88,13 @@ a {
     display: flex;
     flex-direction: column;
 }
+@media only screen and (max-width: 768px) {
+    ul {
+        margin-left: -25%;
+        list-style: none;
+        font-size: 1rem;
+    }
+    .contact {
+        width: 88vw !important
+    }
+}
