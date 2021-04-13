@@ -5,7 +5,7 @@ function Contact() {
         <>
             <div className="contact page">
                 <img className="picture" src="../../images/portraitResize.jpg" alt="profile image" width="200vw" height="300vh"></img>
-                <div className="text">
+                <div className="clickMe text">
                     <h2>Contact</h2>
                     <ul>
                         <li>Phone: <a href="tel:828-553-4465">(828)-553-4465</a></li>

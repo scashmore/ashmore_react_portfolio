@@ -1,34 +1,27 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import { A } from 'hookrouter'
 import './styles.css'
 
 function Header() {
-    return(
-        <div ClassName="header">
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home" className="font1 name">Susan Ashmore</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav>
-      <Nav.Link href="#home" active>Home</Nav.Link>
-      <Nav.Link eventKey={2} href="#projects">
-        Projects
-      </Nav.Link>
-      <Nav.Link eventKey={2} href="#art-portfolio">
-        Art Portfolio
-      </Nav.Link>
-      <Nav.Link eventKey={2} href="#resume">
-        Resume
-      </Nav.Link>
-      <Nav.Link eventKey={2} href="#contact">
-        Contact
-      </Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>
-        </div>
-    )
+  return (
+    <div ClassName="header">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar.Brand href="/" className="font1 name">Susan Ashmore</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav activeKey="/">
+            <A href="/"><Nav.Link>Home</Nav.Link></A>
+            <A href="/projects"><Nav.Link>Projects</Nav.Link></A>
+            <A href="/art-portfolio"><Nav.Link>Art Portfolio</Nav.Link></A>
+            <A href="/resume"><Nav.Link>Resume</Nav.Link></A>
+            <A href="/contact"><Nav.Link>Contact</Nav.Link></A>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </div>
+  )
 };
 
 export default Header
