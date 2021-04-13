@@ -17,8 +17,8 @@ function Projects() {
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                        <h3><a>To Deployed Site</a></h3>
-                        <p><a href="#">To GitHub Repo</a></p>
+                        <h3><a href="https://tranquil-retreat-59849.herokuapp.com/">To Deployed Site</a></h3>
+                        <p><a href="#">https://github.com/scashmore/Doodle-Node</a></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item interval={5000}>
@@ -28,8 +28,8 @@ function Projects() {
                             alt="Second slide"
                         />
                         <Carousel.Caption>
-                        <h3><a>To Deployed Site</a></h3>
-                           <p><a href="#">To GitHub Repo</a></p>
+                        <h3><a href="https://scashmore.github.io/Password_Generator/">To Deployed Site</a></h3>
+                           <p><a href="https://github.com/scashmore/Password_Generator">To GitHub Repo</a></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -39,8 +39,8 @@ function Projects() {
                             alt="Third slide"
                         />
                         <Carousel.Caption>
-                            <h3><a>To Deployed Site</a></h3>
-                            <p><a href="#">To GitHub Repo</a></p>
+                            <h3><a href="#">Deployed Site Soon to Come</a></h3>
+                            <p><a href="https://github.com/scashmore/piano_react">To GitHub Repo</a></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -50,8 +50,8 @@ function Projects() {
                             alt="Third slide"
                         />
                         <Carousel.Caption>
-                            <h3><a>To Deployed Site</a></h3>
-                            <p><a href="#">To GitHub Repo</a></p>
+                            <h3><a href="https://scashmore.github.io/Restaurants-Near-Me/">To Deployed Site</a></h3>
+                            <p><a href="https://github.com/scashmore/Restaurants-Near-Me">To GitHub Repo</a></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
