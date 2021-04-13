@@ -7,7 +7,7 @@ function Art() {
             <div className="page">
                 <div className="text">
                     <h2>Art Portfolio</h2>
-                    <p>Scroll through some of Susan's original art made uitilzing photoshop!</p>
+                    <p>Scroll through some of Susan's original art made uitilizing photoshop!</p>
                 </div>
                 <Carousel className="carousel">
                     <Carousel.Item interval={5000}>
