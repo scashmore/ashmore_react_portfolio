@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from "react-dom";
 import { Component } from 'react';
 import Header from './components/Header.js';
 import Home from './components/Home.js';
@@ -17,18 +16,16 @@ class App extends Component {
       name: "React"
     };
   }
-
   render() {
     let config = {
-      num: [4, 7],
-      rps: 0.1,
-      radius: [5, 40],
-      life: [1.5, 3],
-      v: [1, 1.5],
-      tha: [-40, 40],
-      zIndex: 2,
-      alpha: [.4, 0],
-      scale: [.1, 0.4],
+      num: [1, 2],
+      rps: 2,
+      radius: [1, 5],
+      life: [1, 1.5],
+      v: [.2, .2],
+      tha: [-10, 10],
+      alpha: [0.6, 0],
+      scale: [0.1, 0.2],
       position: "all",
       color: ["random", "#ff0000"],
       cross: "dead",
@@ -55,9 +52,10 @@ class App extends Component {
     return (
       <div style={{ backgroundImage: "url(../../images/background.png)" }}>
         <div calssName='header'>
-          <ParticlesBg type="custom" config={config} bg={{
+          <ParticlesBg classtype="custom" config={config} bg={{
             position: "absolute",
             zIndex: 1,
+            opacity: .1,
           }} />
           <Header />
           <Contact />
