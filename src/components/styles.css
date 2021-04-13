@@ -70,6 +70,7 @@
     border-radius: 50%;
     border: #eee solid;
     box-shadow: 0 4px 8px 0 rgba(44, 159, 179, 0.74), 0 6px 20px 0 rgba(198, 108, 216, 0.67);
+    background-color: #eee;
 }
 .carousel-caption {
     -webkit-text-stroke: 1px black;
