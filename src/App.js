@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRoutes } from 'hookrouter'
+import { useRoutes } from 'hookrouter';
 import Header from './components/Header.js';
 import Home from './components/Home.js';
 import Footer from './components/Footer.js';

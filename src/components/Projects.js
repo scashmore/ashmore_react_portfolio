@@ -18,7 +18,7 @@ function Projects() {
                         />
                         <Carousel.Caption>
                         <h3><a href="https://tranquil-retreat-59849.herokuapp.com/">To Deployed Site</a></h3>
-                        <p><a href="#">https://github.com/scashmore/Doodle-Node</a></p>
+                        <p><a href="https://github.com/scashmore/Doodle-Node">To GitHub Repo</a></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item interval={5000}>
