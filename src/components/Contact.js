@@ -11,7 +11,7 @@ function Contact() {
                         <li>Phone: <a href="tel:828-553-4465">(828)-553-4465</a></li>
                         <li>Email: <a href="mailto: scashmorecitcom@gmail.com">scashmorecitcom@gmail.com</a></li>
                         <li>Github: <a href="https://github.com/scashmore/Ashmore_Profile">scashmore</a></li>
-                        <li>Linkeden: <a href="https://www.linkedin.com/in/susan-ashmore-881217a9/">Susan Ashmore</a>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/susan-ashmore-881217a9/">Susan Ashmore</a>
                         </li>
                     </ul>
                 </div>
