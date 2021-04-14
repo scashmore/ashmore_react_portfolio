@@ -17,7 +17,7 @@ function Projects() {
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                        <a className="textdec" href="https://tranquil-retreat-59849.herokuapp.com/"><h3>To Deployed Site</h3></a>
+                        <h3><a className="textdec" href="https://tranquil-retreat-59849.herokuapp.com/">To Deployed Site</a></h3>
                         <p><a className="textdec" href="https://github.com/scashmore/Doodle-Node">To GitHub Repo</a></p>
                         </Carousel.Caption>
                     </Carousel.Item>

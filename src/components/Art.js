@@ -31,8 +31,53 @@ function Art() {
                     <Carousel.Item>
                         <img
                             className="d-block citem"
+                            src="../../images/ab1.jpg"
+                            alt="Fourth slide"
+                        />
+                        <Carousel.Caption>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block citem"
+                            src="../../images/space.jpg"
+                            alt="Fifth slide"
+                        />
+                        <Carousel.Caption>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block citem"
                             src="../../images/background.png"
                             alt="Third slide"
+                        />
+                        <Carousel.Caption>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block citem"
+                            src="../../images/link.jpg"
+                            alt="Sixth slide"
+                        />
+                        <Carousel.Caption>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block citem"
+                            src="../../images/ab6.jpg"
+                            alt="Seventh slide"
+                        />
+                        <Carousel.Caption>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block citem"
+                            src="../../images/rock_broth.jpg"
+                            alt="Eighth slide"
                         />
                         <Carousel.Caption>
                         </Carousel.Caption>
