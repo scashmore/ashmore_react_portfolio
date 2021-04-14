@@ -105,7 +105,7 @@ a {
 .downloads {
     display: flex;
     flex-direction: column;
-    z-index: 3;
+    z-index: 4;
 }
 @media only screen and (max-width: 768px) {
     ul {

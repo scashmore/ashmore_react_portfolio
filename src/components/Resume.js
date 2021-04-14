@@ -4,8 +4,8 @@ function Resume() {
     return (
         <>
             <div className="page">
-                <img className="picture" src="../../images/portraitResize.jpg" alt="profile image" width="200vw" height="300vh"></img>
-                <div className="text">
+                <img className="picture" src="../../images/portraitResize.jpg" alt="profile" width="200vw" height="300vh"></img>
+                <div className="text clickMe">
                     <h2>Resume</h2>
                     <p>
                         Download Susan's most up-to-date resume!
