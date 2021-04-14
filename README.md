@@ -12,8 +12,8 @@ This is Susan Ashmore's online porfolio. The portfolio was build using React js.
 
 Simply click the link or scan the QR code to get started. Use the navigation bar to see Susan's projects, artwork, and contact information.
 
-[!Image](/public/images/about.png)
+![Image](/public/images/about.png)
 
-[!Image](/public/images/art.png)
+![Image](/public/images/art.png)
 
-[!Image](/public/images/proj.png)
+![Image](/public/images/proj.png)
