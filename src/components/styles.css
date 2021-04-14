@@ -61,6 +61,10 @@ Nav.Link {
     margin: 10%;
     -ms-flex-align: end;
 }
+.textdec {
+    -webkit-text-stroke: black 1px;
+    color: #eee
+}
 @media only screen and (max-width: 768px) {
     .text {
         margin: auto

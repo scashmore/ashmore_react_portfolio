@@ -17,8 +17,8 @@ function Projects() {
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                        <h3><a href="https://tranquil-retreat-59849.herokuapp.com/">To Deployed Site</a></h3>
-                        <p><a href="https://github.com/scashmore/Doodle-Node">To GitHub Repo</a></p>
+                        <a className="textdec" href="https://tranquil-retreat-59849.herokuapp.com/"><h3>To Deployed Site</h3></a>
+                        <p><a className="textdec" href="https://github.com/scashmore/Doodle-Node">To GitHub Repo</a></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item interval={5000}>
@@ -28,8 +28,8 @@ function Projects() {
                             alt="Second slide"
                         />
                         <Carousel.Caption>
-                        <h3><a href="https://scashmore.github.io/Password_Generator/">To Deployed Site</a></h3>
-                           <p><a href="https://github.com/scashmore/Password_Generator">To GitHub Repo</a></p>
+                        <h3><a className="textdec" href="https://scashmore.github.io/Password_Generator/">To Deployed Site</a></h3>
+                           <p><a className="textdec" href="https://github.com/scashmore/Password_Generator">To GitHub Repo</a></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -39,8 +39,8 @@ function Projects() {
                             alt="Third slide"
                         />
                         <Carousel.Caption>
-                            <h3><a href="#">Deployed Site Soon to Come</a></h3>
-                            <p><a href="https://github.com/scashmore/piano_react">To GitHub Repo</a></p>
+                            <h3><a className="textdec" href="#">Deployed Site Soon to Come</a></h3>
+                            <p><a className="textdec" href="https://github.com/scashmore/piano_react">To GitHub Repo</a></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -50,8 +50,30 @@ function Projects() {
                             alt="Third slide"
                         />
                         <Carousel.Caption>
-                            <h3><a href="https://scashmore.github.io/Restaurants-Near-Me/">To Deployed Site</a></h3>
-                            <p><a href="https://github.com/scashmore/Restaurants-Near-Me">To GitHub Repo</a></p>
+                            <h3><a className="textdec" href="https://scashmore.github.io/Restaurants-Near-Me/">To Deployed Site</a></h3>
+                            <p><a className="textdec" href="https://github.com/scashmore/Restaurants-Near-Me">To GitHub Repo</a></p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block citem"
+                            src="../../images/readme.gif"
+                            alt="Third slide"
+                        />
+                        <Carousel.Caption>
+                            <h3 className="textdec">Read Me Generator</h3>
+                            <p><a className="textdec" href="https://github.com/scashmore/README_Generator">To GitHub Repo</a></p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block citem"
+                            src="../../images/Employee.gif"
+                            alt="Third slide"
+                        />
+                        <Carousel.Caption>
+                            <h3><a className="textdec" href="https://scashmore.github.io/user-directory/">To Deployed Site</a></h3>
+                            <p><a className="textdec" href="https://github.com/scashmore/user-directory">To GitHub Repo</a></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
