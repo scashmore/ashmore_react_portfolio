@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import { A } from 'hookrouter'
+import {Link} from 'react-router-dom'
 import './styles.css'
 
 function Header() {
@@ -12,11 +12,11 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav activeKey="/">
-            <A href="/"><Nav.Link>Home</Nav.Link></A>
-            <A href="/projects"><Nav.Link>Projects</Nav.Link></A>
-            <A href="/art-portfolio"><Nav.Link>Art Portfolio</Nav.Link></A>
-            <A href="/resume"><Nav.Link>Resume</Nav.Link></A>
-            <A href="/contact"><Nav.Link>Contact</Nav.Link></A>
+            <Nav.Link><Link className="linkcol" to="/">Home</Link></Nav.Link>
+            <Nav.Link><Link className="linkcol" to="/projects">Projects</Link></Nav.Link>
+            <Nav.Link><Link className="linkcol" to="/art-portfolio">Art Portfolio</Link></Nav.Link>
+            <Nav.Link><Link className="linkcol" to="/resume">Resume</Link></Nav.Link>
+            <Nav.Link><Link className="linkcol" to="/contact">Contact</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

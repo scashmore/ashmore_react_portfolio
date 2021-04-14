@@ -62,8 +62,10 @@ Nav.Link {
     -ms-flex-align: end;
 }
 .textdec {
-    -webkit-text-stroke: black 1px;
-    color: #eee
+    color: #eee;
+    background-color: rgb(121, 116, 116);
+    border-radius: 10px;
+    padding: 2%;
 }
 @media only screen and (max-width: 768px) {
     .text {
@@ -98,6 +100,11 @@ Nav.Link {
     -webkit-text-stroke: 1px black;
     font-size: 20px;
     text-shadow: 2px 2px 8px #1b1b1b;;
+}
+@media only screen and (max-width: 768px) {
+    .carousel-indicators {
+        display: none;
+    }
 }
 @media only screen and (max-width: 768px) {
 
@@ -146,4 +153,7 @@ a {
 .bgImage {
     background-attachment: fixed;
     background-size: cover;
+}
+.linkcol {
+    color: #eee;
 }

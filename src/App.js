@@ -1,5 +1,4 @@
 import React from 'react';
-import { useRoutes } from 'hookrouter';
 import Header from './components/Header.js';
 import Home from './components/Home.js';
 import Footer from './components/Footer.js';
@@ -8,26 +7,24 @@ import Art from './components/Art.js';
 import Resume from './components/Resume.js';
 import Contact from './components/Contact.js';
 import Background from './components/Background.js';
-
-const routes = {
-  '/': () => <Home />,
-  '/projects': () => <Projects />,
-  '/art-portfolio': () => <Art />,
-  '/resume': () => <Resume />,
-  '/contact': () => <Contact />
-}
+import { BrowserRouter, Route } from 'react-router-dom'
 
 function App() {
-  const match = useRoutes(routes)
   return (
-    <div classaName="bgImage" style={{ backgroundImage: "url(../../images/background.png)" }}>
-      <div>
-        <Header />
-        <Background />
-        {match}
-        <Footer />
+    <BrowserRouter>
+      <div classaName="bgImage" style={{ backgroundImage: "url(../../images/background.png)" }}>
+        <div>
+          <Header />
+          <Background />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/projects' component={Projects} />
+          <Route exact path='/art-portfolio' component={Art} />
+          <Route exact path='/resume' component={Resume} />
+          <Route exact path='/contact' component={Contact} />
+          <Footer />
+        </div>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
