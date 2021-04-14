@@ -7,7 +7,7 @@ import Projects from './components/Projects.js';
 import Art from './components/Art.js';
 import Resume from './components/Resume.js';
 import Contact from './components/Contact.js';
-import Background from './components/Background.js'
+import Background from './components/Background.js';
 
 const routes = {
   '/': () => <Home />,
