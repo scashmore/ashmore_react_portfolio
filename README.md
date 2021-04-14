@@ -2,7 +2,7 @@
 
 [Deployed](https://morning-sea-49413.herokuapp.com/)
 
-Or scan the QR code! ![QR Code](/public/images/ashmore_website_scan.png)
+Or scan the QR code! ![QR Code](/public/images/ashmore_website_scan.png= 250x)
 
 ## About
 
